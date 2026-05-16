@@ -1,4 +1,4 @@
-# AgriPro 农学笔记 中文版
+# AgriPro 农学笔记 — PWA build (v2)
 
 Your React source packaged as a true Progressive Web App. Installable, runs in standalone mode, **fully offline** after first visit, and zero dependency on any third-party CDN.
 
