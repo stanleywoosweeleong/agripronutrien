@@ -2933,9 +2933,9 @@ const MixRulesPanel = () => {
   }, t('mix_protocol_gold_desc')), /*#__PURE__*/React.createElement("div", {
     className: "flex flex-col gap-4"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex items-center gap-5 text-left transition-transform hover:scale-[1.01]"
+    className: "bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex flex-col md:flex-row md:items-center gap-3 md:gap-5 text-left transition-transform hover:scale-[1.01]"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "p-4 bg-sky-100 text-sky-600 rounded-xl shrink-0"
+    className: "p-4 bg-sky-100 text-sky-600 rounded-xl shrink-0 self-start"
   }, /*#__PURE__*/React.createElement(Wind, {
     size: 28
   })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", {
@@ -2943,9 +2943,9 @@ const MixRulesPanel = () => {
   }, t('mix_protocol_step1')), /*#__PURE__*/React.createElement("p", {
     className: "text-base md:text-lg font-bold text-stone-500 mt-1 leading-relaxed"
   }, t('mix_protocol_step1_desc')))), /*#__PURE__*/React.createElement("div", {
-    className: "bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex items-center gap-5 text-left transition-transform hover:scale-[1.01]"
+    className: "bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex flex-col md:flex-row md:items-center gap-3 md:gap-5 text-left transition-transform hover:scale-[1.01]"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "p-4 bg-amber-100 text-amber-600 rounded-xl shrink-0"
+    className: "p-4 bg-amber-100 text-amber-600 rounded-xl shrink-0 self-start"
   }, /*#__PURE__*/React.createElement(Beaker, {
     size: 28
   })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", {
@@ -2953,9 +2953,9 @@ const MixRulesPanel = () => {
   }, t('mix_protocol_step2')), /*#__PURE__*/React.createElement("p", {
     className: "text-base md:text-lg font-bold text-stone-500 mt-1 leading-relaxed"
   }, t('mix_protocol_step2_desc')))), /*#__PURE__*/React.createElement("div", {
-    className: "bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex items-center gap-5 text-left transition-transform hover:scale-[1.01]"
+    className: "bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex flex-col md:flex-row md:items-center gap-3 md:gap-5 text-left transition-transform hover:scale-[1.01]"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "p-4 bg-emerald-100 text-emerald-600 rounded-xl shrink-0"
+    className: "p-4 bg-emerald-100 text-emerald-600 rounded-xl shrink-0 self-start"
   }, /*#__PURE__*/React.createElement(CheckCircle, {
     size: 28
   })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", {

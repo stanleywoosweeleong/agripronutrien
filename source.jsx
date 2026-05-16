@@ -2090,22 +2090,22 @@ const MixRulesPanel = () => {
              <p className="font-bold text-lg text-red-800/80 leading-relaxed mb-8">{t('mix_protocol_gold_desc')}</p>
              
              <div className="flex flex-col gap-4">
-                 <div className="bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex items-center gap-5 text-left transition-transform hover:scale-[1.01]">
-                     <div className="p-4 bg-sky-100 text-sky-600 rounded-xl shrink-0"><Wind size={28}/></div>
+                 <div className="bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex flex-col md:flex-row md:items-center gap-3 md:gap-5 text-left transition-transform hover:scale-[1.01]">
+                     <div className="p-4 bg-sky-100 text-sky-600 rounded-xl shrink-0 self-start"><Wind size={28}/></div>
                      <div>
                          <h5 className="font-black text-lg md:text-xl text-stone-900 uppercase tracking-wide">{t('mix_protocol_step1')}</h5>
                          <p className="text-base md:text-lg font-bold text-stone-500 mt-1 leading-relaxed">{t('mix_protocol_step1_desc')}</p>
                      </div>
                  </div>
-                 <div className="bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex items-center gap-5 text-left transition-transform hover:scale-[1.01]">
-                     <div className="p-4 bg-amber-100 text-amber-600 rounded-xl shrink-0"><Beaker size={28}/></div>
+                 <div className="bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex flex-col md:flex-row md:items-center gap-3 md:gap-5 text-left transition-transform hover:scale-[1.01]">
+                     <div className="p-4 bg-amber-100 text-amber-600 rounded-xl shrink-0 self-start"><Beaker size={28}/></div>
                      <div>
                          <h5 className="font-black text-lg md:text-xl text-stone-900 uppercase tracking-wide">{t('mix_protocol_step2')}</h5>
                          <p className="text-base md:text-lg font-bold text-stone-500 mt-1 leading-relaxed">{t('mix_protocol_step2_desc')}</p>
                      </div>
                  </div>
-                 <div className="bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex items-center gap-5 text-left transition-transform hover:scale-[1.01]">
-                     <div className="p-4 bg-emerald-100 text-emerald-600 rounded-xl shrink-0"><CheckCircle size={28}/></div>
+                 <div className="bg-white p-5 md:p-6 rounded-2xl border-2 border-red-100 shadow-sm flex flex-col md:flex-row md:items-center gap-3 md:gap-5 text-left transition-transform hover:scale-[1.01]">
+                     <div className="p-4 bg-emerald-100 text-emerald-600 rounded-xl shrink-0 self-start"><CheckCircle size={28}/></div>
                      <div>
                          <h5 className="font-black text-lg md:text-xl text-stone-900 uppercase tracking-wide">{t('mix_protocol_step3')}</h5>
                          <p className="text-base md:text-lg font-bold text-stone-500 mt-1 leading-relaxed">{t('mix_protocol_step3_desc')}</p>
